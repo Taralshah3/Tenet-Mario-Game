@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		052E230C2593B4AD0056F0EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052E230B2593B4AD0056F0EA /* AppDelegate.swift */; };
-		052E230E2593B4AD0056F0EA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 052E230D2593B4AD0056F0EA /* GameScene.sks */; };
 		052E23102593B4AD0056F0EA /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 052E230F2593B4AD0056F0EA /* Actions.sks */; };
 		052E23122593B4AD0056F0EA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052E23112593B4AD0056F0EA /* GameScene.swift */; };
 		052E23142593B4AD0056F0EA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052E23132593B4AD0056F0EA /* GameViewController.swift */; };
@@ -16,6 +15,10 @@
 		052E23192593B4B00056F0EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 052E23182593B4B00056F0EA /* Assets.xcassets */; };
 		052E23242593B4B00056F0EA /* Tenet_Mario_GameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052E23232593B4B00056F0EA /* Tenet_Mario_GameTests.swift */; };
 		052E232F2593B4B10056F0EA /* Tenet_Mario_GameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052E232E2593B4B10056F0EA /* Tenet_Mario_GameUITests.swift */; };
+		052E23412593B6880056F0EA /* Hero.sks in Resources */ = {isa = PBXBuildFile; fileRef = 052E233F2593B6880056F0EA /* Hero.sks */; };
+		052E234A2593C3950056F0EA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 052E23492593C3950056F0EA /* GameScene.sks */; };
+		052E235725941B310056F0EA /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 052E235625941B310056F0EA /* assets */; };
+		052E235C2594FCC70056F0EA /* Obstacle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 052E235B2594FCC70056F0EA /* Obstacle.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,6 @@
 /* Begin PBXFileReference section */
 		052E23082593B4AD0056F0EA /* Tenet Mario Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tenet Mario Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		052E230B2593B4AD0056F0EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		052E230D2593B4AD0056F0EA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		052E230F2593B4AD0056F0EA /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		052E23112593B4AD0056F0EA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		052E23132593B4AD0056F0EA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +53,10 @@
 		052E232A2593B4B10056F0EA /* Tenet Mario GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tenet Mario GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		052E232E2593B4B10056F0EA /* Tenet_Mario_GameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tenet_Mario_GameUITests.swift; sourceTree = "<group>"; };
 		052E23302593B4B10056F0EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		052E233F2593B6880056F0EA /* Hero.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Hero.sks; sourceTree = "<group>"; };
+		052E23492593C3950056F0EA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		052E235625941B310056F0EA /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		052E235B2594FCC70056F0EA /* Obstacle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Obstacle.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,7 @@
 		052E22FF2593B4AD0056F0EA = {
 			isa = PBXGroup;
 			children = (
+				052E235625941B310056F0EA /* assets */,
 				052E230A2593B4AD0056F0EA /* Tenet Mario Game */,
 				052E23222593B4B00056F0EA /* Tenet Mario GameTests */,
 				052E232D2593B4B10056F0EA /* Tenet Mario GameUITests */,
@@ -102,9 +109,11 @@
 			isa = PBXGroup;
 			children = (
 				052E230B2593B4AD0056F0EA /* AppDelegate.swift */,
-				052E230D2593B4AD0056F0EA /* GameScene.sks */,
+				052E233F2593B6880056F0EA /* Hero.sks */,
 				052E230F2593B4AD0056F0EA /* Actions.sks */,
+				052E23492593C3950056F0EA /* GameScene.sks */,
 				052E23112593B4AD0056F0EA /* GameScene.swift */,
+				052E235B2594FCC70056F0EA /* Obstacle.sks */,
 				052E23132593B4AD0056F0EA /* GameViewController.swift */,
 				052E23152593B4AD0056F0EA /* Main.storyboard */,
 				052E23182593B4B00056F0EA /* Assets.xcassets */,
@@ -235,9 +244,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				052E23172593B4AD0056F0EA /* Main.storyboard in Resources */,
-				052E230E2593B4AD0056F0EA /* GameScene.sks in Resources */,
 				052E23192593B4B00056F0EA /* Assets.xcassets in Resources */,
+				052E23412593B6880056F0EA /* Hero.sks in Resources */,
+				052E235725941B310056F0EA /* assets in Resources */,
+				052E234A2593C3950056F0EA /* GameScene.sks in Resources */,
 				052E23102593B4AD0056F0EA /* Actions.sks in Resources */,
+				052E235C2594FCC70056F0EA /* Obstacle.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
