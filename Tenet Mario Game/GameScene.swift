@@ -13,6 +13,7 @@ class GameScene: SKScene {
     var scrollLayer: SKNode!
     let scrollSpeed: CGFloat = 100
     let fixedDelta: CFTimeInterval = 1.0 / 60.0
+    let scrollSpeed2: CGFloat = 200
     
     override func didMove(to view: SKView) {
       /* Setup your scene here */
